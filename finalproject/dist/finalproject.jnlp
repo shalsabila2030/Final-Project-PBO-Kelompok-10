@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="finalproject.jnlp">
+  <information>
+    <title>finalproject</title>
+    <vendor>USER</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="finalproject.jar" size="9722775" download="eager" />
+    <jar href="lib\sqlite-jdbc-3.36.0.3.jar" size="9731064" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="finalproject" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="finalproject.Finalproject"  name="finalproject" />
+  <update check="always"/>
+</jnlp>
